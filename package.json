@@ -1,0 +1,24 @@
+{
+  "name": "de-ui-testing-selenium-seed",
+  "version": "1.0.0",
+  "description": "Template for UI test automation project, using CucumberJS and Selenium4",
+  "main": "-",
+  "scripts": {
+    "test": "cucumber-js features/**/*.feature --require support/**/*.js --require step_definitions/**/*.js --format progress --format json:cucumber.json --format-options \"{\\\"colorsEnabled\\\": true}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/L4tabar/de-ui-testing-selenium-seed"
+  },
+  "keywords": [
+    "CucumberJS",
+    "Selenium Webdriver"
+  ],
+  "author": "Attila Jakubat",
+  "dependencies": {
+    "chai": "^6.2.0",
+    "cucumber": "^6.0.7",
+    "cucumber-pretty": "^6.0.1",
+    "selenium-webdriver": "^4.37.0"
+  }
+}
